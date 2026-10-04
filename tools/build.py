@@ -78,7 +78,7 @@ DAYS = {
         ("26 มิ.ย.", "นักดำน้ำไปถึงสามแยก แล้วถูกน้ำดันกลับ"),
         ("27 มิ.ย.", "นักดำน้ำสามคนจาก British Cave Rescue Council มาถึง ฝนทำให้น้ำท่วมทางอีก"),
         ("28 มิ.ย.", "ทีมกองทัพอากาศสหรัฐฯ มาสมทบ ฝนหนักจนต้องหยุดค้นหา เครื่องสูบน้ำมาถึง คนหลายร้อยขึ้นไปหาทางเข้าอื่นบนดอย"),
-        ("29 มิ.ย.", "นักดำน้ำตำรวจสหพันธรัฐออสเตรเลียมาถึง นายกรัฐมนตรีมาเยี่ยม บอกครอบครัวว่าอย่าหมดหวัง"),
+        ("29 มิ.ย.", "นักดำน้ำตำรวจสหพันธรัฐออสเตรเลียมาถึง นายกรัฐมนตรีมาเยี่ยม บอกครอบครัวว่าอย่าหมดหวัง"),  # stylecheck: allow — reported speech, a fact of the day
         ("30 มิ.ย.", "ฝนเว้น นักดำน้ำดันเข้าไปได้ลึกขึ้น"),
         ("1 ก.ค.", "โถงสามกลายเป็นฐาน เป็นคลังถังอากาศอยู่ในภูเขา"),
         ("2 ก.ค.", "ดึกคืนนั้น จอห์น โวลันเธน กับริก สแตนตัน โผล่ขึ้นในโพรงอากาศ พบทั้งสิบสามคนยังมีชีวิต บนเนินนมสาว เลยหาดพัทยาไปราว 400 เมตร ได้กลิ่นก่อนจะเห็นตัว"),
@@ -107,7 +107,7 @@ UI = {
         "mtn_kick": "ดอยนางนอน · Doi Nang Non",
         "mtn_p": [
             "Doi Nang Non, the Mountain of the Sleeping Lady, runs along the border with Myanmar above Mae Sai. From the right angle its ridge looks like a woman lying on her back. In the Tai Yai story, a princess fled her father with a commoner she loved; soldiers killed him, she died of grief, her blood became the Mae Sai River and her body the mountain.",
-            "The mountain is limestone: rock that rainwater slowly dissolves. Over a very long time the water hollowed out Tham Luang, a cave about 10.3 km long. The mouth is 446 m above the sea; the peak is 1,389 m. In the rainy season the mountain soaks up rain like a sponge and lets it out through the cave. A sign at the mouth warned against going in from July to November. In 2018 the rain came early.",
+            "The mountain is limestone: rock that rainwater slowly dissolves. Over a very long time the water hollowed out Tham Luang, a cave about 10.3 km long. The mouth is 446 m above the sea; the peak is 1,389 m. In the rainy season the mountain soaks up rain like a sponge and lets it out through the cave. A sign at the mouth warned against going in from July to November. In 2018 the rain came early.",  # stylecheck: allow — history: the sign's own warning
             "The drawing above is the mountain in profile, made from six bell curves added together, one for each part of the Sleeping Lady. Press play to run the eighteen days.",
         ],
         "map_h": "The way in",
@@ -117,7 +117,7 @@ UI = {
             "Cave divers lay a guideline, a thin rope, as they go, so they can follow it back by touch when they cannot see. John Volanthen ran out of line just short of the team, surfaced, and found them.",
             "How far in? The governor's briefing that night said 4 km from the mouth. Martin Ellis's survey map puts the ledge about 2.6 km in. This trace, a smooth curve through points copied from a public-domain sketch map, measures {trace}.",
         ],
-        "lay": "Lay the line", "bring": "Bring them out", "dist": "Along the line", "stage": "Where",
+        "lay": "Lay the line", "bring": "Bring them out", "dist": "Along the line", "stage": "Where",  # stylecheck: allow — a stage label
         "places": {"mouth": "Mouth", "c1": "Chamber 1", "c2": "Chamber 2", "c3": "Chamber 3 · base", "tj": "T-junction · Sam Yaek", "pb": "Pattaya Beach", "ledge": "Nern Nom Sao", "monk": "Monk's Series", "pumps": "pumps", "flooded": "flooded, dived", "dry": "walked"},
         "map_note": "Traced from Per Meistrup's CC0 map of the rescue, checked against Martin Ellis's 2018 survey. Where the water stood changed by the hour; blue sketches the stretches divers had to swim.",
         "sq_h": "The squeeze",
@@ -211,7 +211,7 @@ UI = {
         "mtn_kick": "Doi Nang Non · ภูเขานางนอน",
         "mtn_p": [
             "ดอยนางนอนทอดตัวตามแนวชายแดนพม่าเหนืออำเภอแม่สาย มองจากบางมุมสันดอยเหมือนหญิงสาวนอนหงาย ตำนานไทใหญ่เล่าว่าเจ้าหญิงหนีพ่อไปกับชายสามัญที่นางรัก ทหารตามมาฆ่าเขา นางตรอมใจตาย เลือดกลายเป็นแม่น้ำแม่สาย ร่างกลายเป็นภูเขา",
-            "ดอยนี้เป็นหินปูน หินที่น้ำฝนค่อยๆ ละลายได้ นานแสนนานน้ำกัดเซาะจนเกิดถ้ำหลวง ยาวราว 10.3 กม. ปากถ้ำสูงจากน้ำทะเล 446 เมตร ยอดดอยสูง 1,389 เมตร หน้าฝนภูเขาดูดซับน้ำเหมือนฟองน้ำแล้วปล่อยออกทางถ้ำ ป้ายหน้าถ้ำเตือนว่าห้ามเข้าช่วงกรกฎาคมถึงพฤศจิกายน ปี 2561 ฝนมาเร็วกว่าปกติ",
+            "ดอยนี้เป็นหินปูน หินที่น้ำฝนค่อยๆ ละลายได้ นานแสนนานน้ำกัดเซาะจนเกิดถ้ำหลวง ยาวราว 10.3 กม. ปากถ้ำสูงจากน้ำทะเล 446 เมตร ยอดดอยสูง 1,389 เมตร หน้าฝนภูเขาดูดซับน้ำเหมือนฟองน้ำแล้วปล่อยออกทางถ้ำ ป้ายหน้าถ้ำเตือนว่าห้ามเข้าช่วงกรกฎาคมถึงพฤศจิกายน ปี 2561 ฝนมาเร็วกว่าปกติ",  # stylecheck: allow — history: the sign's own warning
             "ภาพด้านบนคือภูเขามองด้านข้าง สร้างจากเส้นโค้งระฆังหกเส้นบวกกัน หนึ่งเส้นต่อหนึ่งส่วนของนางนอน กดเล่นเพื่อดูสิบแปดวัน",
         ],
         "map_h": "ทางเข้า",
