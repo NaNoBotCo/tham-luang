@@ -320,11 +320,11 @@ def page(lang):
 <link rel="alternate" hreflang="en" href="{BASE}"><link rel="alternate" hreflang="th" href="{BASE}th/"><link rel="alternate" hreflang="x-default" href="{BASE}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Tham Luang, Drawn · ถ้ำหลวง วาดด้วยคณิต">
 <meta property="og:title" content="{E(u["title"])}"><meta property="og:description" content="{E(u["desc"])}"><meta property="og:url" content="{url}">
-<meta property="og:image" content="{BASE}card.jpg"><meta property="og:image:secure_url" content="{BASE}card.jpg"><meta property="og:image:type" content="image/jpeg">
+<meta property="og:image" content="{BASE}card{"" if lang == "en" else "-" + lang}.jpg"><meta property="og:image:secure_url" content="{BASE}card{"" if lang == "en" else "-" + lang}.jpg"><meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Doi Nang Non drawn in profile with the flooded cave beneath and thirteen lights on a ledge">
+<meta property="og:image:alt" content="{"Doi Nang Non drawn in profile with the flooded cave beneath and thirteen lights on a ledge" if lang == "en" else "ดอยนางนอนวาดด้านข้าง มีถ้ำที่น้ำท่วมอยู่ข้างล่างและแสงสิบสามดวงบนชะง่อน"}">
 <meta property="og:locale" content="{"en_US" if lang == "en" else "th_TH"}"><meta property="og:locale:alternate" content="{"th_TH" if lang == "en" else "en_US"}">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{BASE}card.jpg">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{BASE}card{"" if lang == "en" else "-" + lang}.jpg">
 <link rel="icon" href="{root}icon.svg" type="image/svg+xml">
 <link rel="alternate" type="text/plain" href="{BASE}llms.txt" title="llms.txt">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
